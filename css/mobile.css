@@ -1,0 +1,1475 @@
+/* bearbeiten CLEAN!!! */
+
+@media screen and (max-width: 768px) {
+	::-webkit-scrollbar-track {
+		background: inherit;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: inherit;
+	}
+	#lineExpand {
+		width: 828px;
+	}
+	#welcome {
+		margin-top: 30px;
+		font-size: 2em;
+	}
+	#welcomeLine {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 30px;
+	}
+	#welcomeXuan {
+		font-size: 3.3em;
+		margin-top: 30px;
+	}
+	#welcomeNext {
+		height: 100%;
+		width: 30px;
+		right: 10px;
+	}
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-top: 123px;
+		margin-left: 5%;
+		height: 60px;
+		width: 90%;
+		font-size: 2.3em;
+	}
+	.seasonSeasons {
+		height: 60px;
+	}
+	.seasonMonths {
+		height: 60px;
+	}
+	#seasonCutLine {
+		top: 5px;
+		left: 49.5%;
+		height: 50px;
+		width: 1px;
+	}
+	#seasonUnderline {
+		margin-top: 183px;
+		margin-left: 5%;
+		width: 90%;
+		border-bottom: 2px solid white;
+	}
+
+	#MenuPosi {
+		top: 128px;
+		left: 12%;
+	}
+	#Rahmen {
+		width: 225px;
+		font-size: 2em;
+	}
+	#kleinerRahmen {
+		margin-left: 40px;
+		width: 145px;
+	}
+	li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#seasonDropLine {
+		margin-top: 55px;
+		width: 130%;
+		margin-left: -15%;
+	}
+	#Spring {
+		margin-top: 25px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		top: 128px;
+		left: 57.5%;
+	}
+	#Rahmen2 {
+		width: 225px;
+		font-size: 2em;
+	}
+	#kleinerRahmen2 {
+		margin-left: 40px;
+		width: 145px;
+	}
+
+	#monthDropLine {
+		margin-top: 55px;
+		width: 130%;
+		margin-left: -15%;
+	}
+	#monthAll {
+		margin-top: 25px;
+	}
+	/* Months */
+
+	/* SEASON CSS */
+
+	.impressum p {
+		font-family: 'neouthin', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.searchButtonToggle {
+		display: none;
+	}
+	.menuButtonToggle {
+		position: absolute;
+		margin-top: 33px;
+		margin-left: 360px;
+		background-size: 100%;
+		height: 60px;
+		width: 60px;
+		-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.menuButtonToggle-change {
+		-ms-transform: translate(-330px, 0px) rotate(90deg); /* IE 9 */
+		-webkit-transform: translate3d(-330px,0px,0px) rotate(90deg);
+		transform: translate3d(-330px, 0px, 0px) rotate(90deg);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.buttonName {
+		margin-top: 200px;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason {
+		-ms-transform: translate(-100px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory {
+		-ms-transform: translate(-100px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonName-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.siteMenu {
+		overflow: inherit;
+		z-index: 35;
+		position: fixed;
+		background: #323131;
+		top: 0;
+		height: 100%;
+		width: 330px;
+		-ms-transform: translate(-330px, 0px);
+		-webkit-transform: translate3d(-330px,0px,0px);
+		transform: translate3d(-330px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.siteMenu-change {
+		-ms-transform: translate(0px, 0px);
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	#language {
+		z-index: 25;
+		right: 0;
+		margin-right: 30px;
+		margin-top: 30px;
+		height: 60px;
+		width: 200px;
+	}
+	#language p {
+		font-size: 2em;
+	}
+	.languageSwitch {
+		z-index: 24;
+		margin-right: 30px;
+		margin-top: 30px;
+		height: 50px;
+		width: 200px;
+		border: 1px white solid;
+		font-size: 1.8em;
+	}
+	.languageSwitch-change {
+		height: 160px;
+	}
+	.languageEng {
+		margin-left: 27px;
+		border-right: 0;
+		border-bottom: 2px white solid;
+	}
+	.languageEng-change {
+		margin-top: 75px;
+	}
+	.languageEng p {
+		margin-bottom: 7px;
+		margin-right: 0px;
+	}
+	.languageViet {
+		margin-left: 17px;
+	}
+	.languageViet-change {
+		margin-top: 120px;
+	}
+
+	.searchButtonToggle {
+		display: none;
+	}
+	.searchButtonToggle:active {
+		display: none;
+	}
+	.searchButtonToggle2 {
+		z-index: 19;
+		background: url("../images/pageElements/Lupe.gif") no-repeat;
+		position: absolute;
+		left: 42%;
+		margin-left: -30px;
+		margin-top: 33px;
+		background-size: 100%;
+		height: 60px;
+		width: 60px;
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.searchButtonToggle2:active {
+		background: url("../images/pageElements/Lupe_schwarz.gif") no-repeat;
+		background-size: 100%;
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	#scrollHide {
+		z-index: 8;
+		background: #323131;
+		width: 100%;
+		top: 0;
+		height: 115px;
+	}
+	#lineExpand {
+		z-index: 9;
+		background: white;
+		position: absolute;
+		margin-left: 5%;
+		margin-top: 110px;
+		width: 90%;
+		height: 2px;
+		font-size: 3em;
+	}
+	#line {
+		display: none;
+		z-index: 10;
+		position: absolute;
+		margin-left: 5%;
+		margin-top: 110px;
+		width: 90%;
+		height: 50px;
+		border: none;
+		font-size: 2em;
+	}
+	#analphabeter {
+		display: none;
+	}
+	.siteWrapper {
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+		opacity: 1;
+	}
+	.siteWrapper-change {
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+		opacity: 0.3;
+	}
+	#birdFrame {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 120px;
+	}
+	.birdBox {
+		float: left;
+		margin: 0px;
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 230px;
+		height: 210px;
+		border: 2px solid white;
+	}
+	.birdText {
+		display: table;
+		width: 230px;
+		height: 65px;
+		border: 2px solid white;
+	}
+	.birdText p {
+		display: table-cell;
+		text-align: center;
+		margin: 5px;
+		font-size: 1.2em;
+		vertical-align: middle;
+	}
+	/* Detailed Template tidy up ! */
+	#prevImage {
+		margin-left: 20%;
+	}
+	#nextImage {
+		margin-right: 20%;
+	}
+	#detailedShower {
+		display: none;
+		position: fixed;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		margin: 0 auto;
+		top: 0;
+		opacity: 1;
+		height: 100%;
+		width: 100%;
+		margin-top: 0;
+	}
+	.detailedWindow {
+		margin: auto;
+		height: 100%;
+		width: 1573px;
+	}
+	#birdImgContainer {
+		width: 100%;
+		height: 720px;
+		position: absolute;
+		z-index: 2;
+	}
+	#centerTextDetail {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 90%;
+		text-align: center;
+		max-height: 700px;
+	}
+	#centerTextDetail {
+		position: relative;
+		top: 0;
+		transform: translateY(0%);
+	}
+	.birdDetailedTextWindow {
+		overflow-y: hidden;
+		overflow-x: hidden;
+		background: #000000;
+		position: relative;
+		display: block;
+		border: solid white 4px;
+		height: auto;
+		margin-bottom: 50px;
+		margin-top: 770px;
+		width: 5%;
+		margin-left: 5%;
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 1.25s;
+	}
+	.birdDetailedTextWindow-change {
+		background: #323131;
+		width: 90%;
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.detailLine {
+		background: white;
+		height: 1px;
+		margin-left: 5%;
+		width: 20%;
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+	}
+	.detailLine-change {
+		margin-left: 9%;
+		width: 82%;
+	}
+	h2 {
+		font-weight: 100;
+		text-align: center;
+		margin-top: 3%;
+		margin-bottom: 3%;;
+		font-size: 3em;
+	}
+	h3 {
+		margin-top: 5%;
+		margin-left: 12%;
+		font-size: 1.9em;
+	}
+	p.informationText {
+		font-family: calibri;
+		font-weight: 100;
+		margin-top: 0.5%;
+		margin-left: 12%;
+		margin-right: 12%;
+		margin-bottom: 6%;
+		font-size: 1.2em;
+	}
+	#backDetailed {
+		display: none;
+		position: absolute;
+		z-index: 1;
+		margin-top: 4px;
+		right: 4px;
+		font-size: 3em;
+		height: 45px;
+		width: 50px;
+	}
+	#backDetailed2 {
+		display: block;
+		position: absolute;
+		z-index: 1;
+		margin-top: 4px;
+		right: 33px;
+		font-size: 3em;
+		height: 45px;
+		width: 50px;
+	}
+	#lineExpand {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 736px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 360px;
+	}
+	.birdDetailedImg {
+		max-height: 300px;
+	}
+	#backDetailed2 {
+		margin-top: 4px;
+		right: 33px;
+		font-size: 3em;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 416px;
+	}
+	/* Detailed Template */
+	.birdImg {
+		width: 155px;
+		height: 145px;
+	}
+	.birdText {
+		width: 155px;
+		height: 65px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width: 720px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 655px;
+	}
+	.birdDetailedImg {
+		max-height: 625px;
+	}
+	#backDetailed {
+		margin-top: 22px;
+		right: 4px;
+		font-size: 3em;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 699px;
+	}
+	/* Detailed Template */
+	#MenuPosi {
+		left: 10%;
+	}
+	#MenuPosi2 {
+		left: 55.5%;
+	}
+	.searchButtonToggle2 {
+		left: 38%;
+	}
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 155px;
+		height: 145px;
+	}
+	.birdText {
+		width: 155px;
+		height: 65px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 604px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 570px;
+	}
+	.birdDetailedImg {
+		max-height: 534px;
+	}
+	#backDetailed {
+		margin-top: 22px;
+		right: 4px;
+		font-size: 3em;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 612px;
+	}
+	/* Detailed Template */
+
+	#MenuPosi {
+		left: 8%;
+	}
+	#MenuPosi2 {
+		left: 53.5%;
+	}
+	.searchButtonToggle2 {
+		left: 38%;
+	}
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 173px;
+		height: 160px;
+	}
+	.birdText {
+		width: 173px;
+		height: 65px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 550px) {
+
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 524px;
+	}
+	.birdDetailedImg {
+		max-height: 490px;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 567px;
+	}
+	/* Detailed Template */
+
+	#MenuPosi {
+		left: 6.5%;
+	}
+	#MenuPosi2 {
+		left: 51.2%;
+	}
+	.birdImg {
+		width: 161px;
+		height: 144px;
+	}
+	.birdText {
+		width: 161px;
+		height: 65px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 480px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 402px;
+	}
+	.birdDetailedImg {
+		max-height: 375px;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 444px;
+	}
+	#bulletCenterHelp {
+		margin-top: 20px;
+	}
+	#bulletContainer {
+		background: rgba(47, 46, 46, 0.67);
+		padding-right: 15px;
+		padding-top: 8px;
+		padding-bottom: 5px;
+	}
+	#bullet2, #bullet3, #bullet4, #bullet5, #bullet6, #bullet7 {
+		height: 15px;
+		width: 15px;
+		margin-left: 15px;
+	}
+	#bullet1 {
+		height: 15px;
+		width: 15px;
+		margin-left: 15px;
+	}
+	#backDetailed2 {
+		margin-top: 4px;
+		right: 13px;
+		font-size: 2.5em;
+		height: 45px;
+		width: 50px;
+	}
+	/* Detailed Template */
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-top: 87px;
+		height: 40px;
+		font-size: 1.5em;
+	}
+	.seasonSeasons {
+		height: 40px;
+	}
+	.seasonMonths {
+		height: 40px;
+	}
+	#seasonCutLine {
+		top: 5px;
+		left: 49.5%;
+		height: 30px;
+		width: 1px;
+	}
+	#seasonUnderline {
+		margin-top: 125px;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	#MenuPosi {
+		top: 90px;
+		left: 9.2%;
+	}
+	#Rahmen {
+		width: 150px;
+		font-size: 1.4em;
+	}
+	#kleinerRahmen {
+		margin-left: 35px;
+		width: 80px;
+	}
+	li {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	#seasonDropLine {
+		margin-top: 35px;
+		width: 140%;
+		margin-left: -20%;
+	}
+	#Spring {
+		margin-top: 5px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		top: 90px;
+		left: 53.7%;
+	}
+	#Rahmen2 {
+		width: 150px;
+		font-size: 1.4em;
+	}
+	#kleinerRahmen2 {
+		margin-left: 35px;
+		width: 80px;
+	}
+
+	#monthDropLine {
+		margin-top: 35px;
+		width: 140%;
+		margin-left: -20%;
+	}
+	#monthAll {
+		margin-top: 5px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* ABOUT TEMPLATE */
+	.impressum {
+		height: 30px;
+		width: 100px;
+		left: 25px;
+		bottom: 50px;
+	}
+	.aboutFrame {
+		overflow-y: scroll;
+		overflow-x: hidden;
+		position: absolute;
+		background: #2a2a2a;
+		border: none;
+		height: 100%;
+		width: 250px;
+		bottom: 0;
+		right: 0;
+		-ms-transform: translate(250px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(250px, 0px,0px) rotate(0deg);
+		transform: translate3d(250px, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.aboutFrame-change {
+		width: 250px;
+		-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	/* ABOUT TEMPLATE */
+	.buttonName {
+		margin-left: 20px;
+		margin-top: 160px !important;
+		height: 60px;
+		width: 170px;
+		font-size: 1.8em;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason {
+		margin-left: 20px;
+		margin-top: 35px;
+		height: 60px;
+		width: 170px;
+		background: gray;
+		font-size: 1.8em;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory {
+		margin-left: 20px;
+		margin-top: 35px;
+		height: 60px;
+		width: 170px;
+		font-size: 1.7em;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonName-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.siteMenu {
+		height: 100%;
+		width: 208px;
+		-ms-transform: translate(-330px, 0px);
+		-webkit-transform: translate3d(-330px,0px,0px);
+		transform: translate3d(-330px, 0px, 0px);
+	}
+	.siteMenu-change {
+		-ms-transform: translate(0px, 0px);
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+	}
+	.siteMenuTransparenz-change {
+		-ms-transform: translate(208px, 0px);
+		-webkit-transform: translate3d(208px,0px,0px);
+		transform: translate3d(208px, 0px, 0px);
+	}
+	#scrollHide {
+		height: 90px;
+	}
+	#lineExpand {
+		margin-top: 85px;
+		font-size: 3em;
+	}
+	#line {
+		margin-top: 85px;
+		height: 40px;
+		font-size: 1.9em;
+	}
+	.menuButtonToggle {
+		margin-top: 25px;
+		margin-left: 350px;
+		height: 52px;
+		width: 52px;
+	}
+	.searchButtonToggle2 {
+		left: 45%;
+		margin-left: -30px;
+		margin-top: 22px;
+		height: 50px;
+		width: 50px;
+	}
+	#language {
+		margin-right: 20px;
+		margin-top: 20px;
+		height: 50px;
+		width: 130px;
+	}
+	#language p {
+		font-size: 1.4em;
+	}
+	.languageSwitch {
+		margin-right: 20px;
+		margin-top: 20px;
+		height: 50px;
+		width: 130px;
+		font-size: 1.2em;
+	}
+	.languageSwitch-change {
+		height: 120px;
+	}
+	.languageEng {
+		margin-left: 16px;
+		border-right: 0;
+		border-bottom: 2px white solid;
+	}
+	.languageEng-change {
+		margin-top: 60px;
+	}
+	.languageEng p {
+		margin-bottom: 6px;
+		margin-right: 0px;
+	}
+	.languageViet {
+		margin-left: 10px;
+	}
+	.languageViet-change {
+		margin-top: 92px;
+	}
+
+	#birdFrame {
+		margin-top: 95px;
+	}
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 180px;
+		height: 165px;
+	}
+	.birdText {
+		width: 180px;
+		height: 65px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#MenuPosi {
+		left: 8%;
+	}
+	#MenuPosi2 {
+		left: 52.5%;
+	}
+
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 174px;
+		height: 162px;
+		border: 2px solid white;
+	}
+	.birdText {
+		width: 174px;
+		height: 65px;
+		border: 2px solid white;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 384px;
+	}
+	.birdDetailedImg {
+		max-height: 370px;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 409px;
+	}
+	#bulletCenterHelp {
+		margin-top: 10px;
+	}
+	#backDetailed2 {
+		margin-top: 4px;
+		right: 6px;
+		font-size: 2em;
+		height: 45px;
+		width: 50px;
+	}
+	h2 {
+		font-weight: 100;
+		text-align: center;
+		margin-top: 3%;
+		margin-bottom: 3%;;
+		font-size: 2.4em;
+	}
+	h3 {
+		margin-top: 5%;
+		margin-left: 12%;
+		font-size: 1.3em;
+	}
+	p.informationText {
+		font-family: calibri;
+		font-weight: 100;
+		margin-top: 0.5%;
+		margin-left: 12%;
+		margin-right: 12%;
+		margin-bottom: 6%;
+		font-size: 1.1em;
+	}
+	/* Detailed Template */
+	#MenuPosi {
+		left: 7%;
+	}
+	#MenuPosi2 {
+		left: 51.5%;
+	}
+	/* ABOUT TEMPLATE */
+	.impressum {
+		height: 30px;
+		width: 100px;
+		left: 25px;
+		bottom: 25px;
+	}
+	.aboutFrame {
+		height: 100%;
+		width: 100%;
+		-ms-transform: translate(100%, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(100%, 0px,0px) rotate(0deg);
+		transform: translate3d(100%, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.aboutFrame-change {
+		-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	/* ABOUT TEMPLATE */
+	.searchButtonToggle2 {
+		left: 42%;
+		margin-left: -30px;
+		margin-top: 22px;
+		height: 50px;
+		width: 50px;
+	}
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 160px;
+		height: 145px;
+	}
+	.birdText {
+		width: 160px;
+		height: 55px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 364px;
+	}
+	.birdDetailedImg {
+		max-height: 340px;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 388px;
+	}
+	/* Detailed Template */
+
+	#MenuPosi {
+		left: 5%;
+	}
+	#MenuPosi2 {
+		left: 52.7%;
+	}
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 152px;
+		height: 140px;
+	}
+	.birdText {
+		width: 152px;
+		height: 55px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		height: 320px;
+	}
+	.birdDetailedImg {
+		max-height: 292px;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 348px;
+	}
+	#bulletContainer {
+		background: rgba(47, 46, 46, 0.67);
+		padding-right: 12px;
+		padding-top: 8px;
+		padding-bottom: 5px;
+	}
+	#bullet2, #bullet3, #bullet4, #bullet5, #bullet6, #bullet7 {
+		height: 12px;
+		width: 12px;
+		margin-left: 12px;
+	}
+	#bullet1 {
+		height: 12px;
+		width: 12px;
+		margin-left: 12px;
+	}
+	#backDetailed2 {
+		right: 4px;
+		font-size: 2em;
+		height: 45px;
+		width: 50px;
+	}
+	/* Detailed Template */
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-top: 62px;
+		margin-left: 5%;
+		height: 30px;
+		width: 90%;
+		font-size: 1.3em;
+	}
+	.seasonSeasons {
+		height: 30px;
+	}
+	.seasonMonths {
+		height: 30px;
+	}
+	#seasonCutLine {
+		top: 5px;
+		left: 49.5%;
+		height: 18px;
+		width: 1px;
+	}
+	#seasonUnderline {
+		margin-top: 89px;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	#MenuPosi {
+		top: 63px;
+		left: 5%;
+	}
+	#Rahmen {
+		width: 138px;
+		font-size: 1.3em;
+	}
+	#kleinerRahmen {
+		margin-left: 25px;
+		width: 88px;
+	}
+	li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#seasonDropLine {
+		margin-top: 26px;
+		width: 130%;
+		margin-left: -15%;
+	}
+	#Spring {
+		margin-top: 5px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		top: 63px;
+		left: 51.3%;
+	}
+	#Rahmen2 {
+		width: 138px;
+		font-size: 1.3em;
+	}
+	#kleinerRahmen2 {
+		margin-left: 25px;
+		width: 88px;
+	}
+	#monthDropLine {
+		margin-top: 26px;
+		width: 130%;
+		margin-left: -15%;
+	}
+	#monthAll {
+		margin-top: 5px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	.menuButtonToggle {
+		margin-top: 15px;
+		margin-left: 345px;
+		height: 37px;
+		width: 37px;
+	}
+	.searchButtonToggle2 {
+		left: 48%;
+		margin-left: -30px;
+		margin-top: 13px;
+		height: 35px;
+		width: 35px;
+	}
+	#language {
+		margin-right: 15px;
+		margin-top: 15px;
+		height: 30px;
+		width: 100px;
+	}
+	#language p {
+		font-size: 1em;
+	}
+	.languageSwitch {
+		margin-right: 15px;
+		margin-top: 15px;
+		height: 20px;
+		width: 100px;
+		font-size: 1em;
+	}
+	.languageSwitch-change {
+		height: 90px;
+	}
+	.languageEng {
+		margin-left: 10px;
+		border-right: 0;
+		border-bottom: 2px white solid;
+	}
+	.languageEng-change {
+		margin-top: 38px;
+	}
+	.languageEng p {
+		margin-bottom: 5px;
+		margin-right: 0px;
+	}
+	.languageViet {
+		margin-left: 5px;
+	}
+	.languageViet-change {
+		margin-top: 68px;
+	}
+	#scrollHide {
+		height: 65px;
+	}
+	#lineExpand {
+		margin-top: 60px;
+		font-size: 3em;
+	}
+	#line {
+		margin-top: 60px;
+		height: 30px;
+		font-size: 1.3em;
+	}
+	.buttonName {
+		margin-left: 20px;
+		margin-top: 80px !important;
+		height: 50px;
+		width: 120px;
+		font-size: 1.5em;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason {
+		margin-left: 20px;
+		margin-top: 25px;
+		height: 50px;
+		width: 120px;
+		font-size: 1.5em;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory {
+		margin-left: 20px;
+		margin-top: 25px;
+		height: 50px;
+		width: 120px;
+		font-size: 1.3em;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonName-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.siteMenu {
+		width: 165px;
+	}
+	.siteMenu-change {
+		-ms-transform: translate(0px, 0px);
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+	}
+	.siteMenuTransparenz-change {
+		-ms-transform: translate(165px, 0px);
+		-webkit-transform: translate3d(165px,0px,0px);
+		transform: translate3d(165px, 0px, 0px);
+	}
+	#birdFrame {
+		margin-top: 60px;
+	}
+	.birdBox {
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 133px;
+		height: 110px;
+	}
+	.birdText {
+		width: 133px;
+		height: 55px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+}
+/* super Media Querie! */
+@media screen and (max-width: 213px) {
+	/* Detailed Template */
+	#birdImgContainer {
+		max-height: 213px;
+	}
+	.birdDetailedImg {
+		max-height: 187px;
+		border: solid white 2px;
+	}
+	#backDetailed2 {
+		margin-top: 4px;
+		right: 4px;
+		font-size: 1.5em;
+		height: 20px;
+		width: 20px;
+	}
+	#bulletContainer {
+		background: rgba(47, 46, 46, 0.67);
+		padding-right: 9px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	.birdDetailedTextWindow-change {
+		margin-top: 247px;
+	}
+	.birdDetailedTextWindow {
+		border: solid white 2px;
+	}
+	#bullet2, #bullet3, #bullet4, #bullet5, #bullet6, #bullet7 {
+		height: 9px;
+		width: 9px;
+		margin-left: 9px;
+	}
+	#bullet1 {
+		height: 9px;
+		width: 9px;
+		margin-left: 9px;
+	}
+	h2 {
+		font-weight: 100;
+		text-align: center;
+		margin-top: 3%;
+		margin-bottom: 3%;;
+		font-size: 1.9em;
+	}
+	/* Detailed Template */
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-top: 62px;
+		margin-left: 5%;
+		height: 30px;
+		width: 90%;
+		font-size: 1em;
+	}
+	.seasonSeasons {
+		height: 30px;
+	}
+	.seasonMonths {
+		height: 30px;
+	}
+	#seasonCutLine {
+		top: 5px;
+		left: 49.5%;
+		height: 18px;
+		width: 1px;
+	}
+	#seasonUnderline {
+		margin-top: 89px;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	#MenuPosi {
+		top: 63px;
+		left: 5%;
+	}
+	#Rahmen {
+		width: 88px;
+		font-size: 0.8em;
+	}
+	#kleinerRahmen {
+		margin-left: 25px;
+		width: 42px;
+	}
+	li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#seasonDropLine {
+		margin-top: 26px;
+		width: 130%;
+		margin-left: -15%;
+	}
+	#Spring {
+		margin-top: 5px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		top: 63px;
+		left: 51.3%;
+	}
+	#Rahmen2 {
+		width: 88px;
+		font-size: 0.6em;
+	}
+	#kleinerRahmen2 {
+		margin-left: 25px;
+		width: 42px;
+	}
+	#monthDropLine {
+		margin-top: 26px;
+		width: 130%;
+		margin-left: -15%;
+	}
+	#monthAll {
+		margin-top: 5px;
+	}
+	/* Months */
+	/* SEASON CSS */
+
+	.buttonName {
+		margin-top: 80px !important;
+	}
+	.buttonSeason {
+		margin-top: 10px;
+	}
+	.buttonCategory {
+		margin-top: 10px;
+	}
+	.searchButtonToggle2 {
+		left: 41%;
+	}
+	.birdBox {
+		margin-left: 13px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.birdImg {
+		width: 181px;
+		height: 165px;
+	}
+	.birdText {
+		width: 181px;
+		height: 55px;
+	}
+	.birdText p {
+		font-size: 1.2em;
+	}
+}

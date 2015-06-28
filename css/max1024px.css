@@ -1,0 +1,726 @@
+@media screen and (max-width: 1270px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 828px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 828px;
+	}
+	#MenuPosi {
+		left: 438px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 852px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 828px;
+	}
+	#welcome {
+		margin-top: 230px;
+		font-size: 2.5em;
+	}
+	#welcomeLine {
+		width: 700px;
+		margin-top: 50px;
+	}
+	#welcomeXuan {
+		font-size: 4.8em;
+		margin-top: 40px;
+	}
+	#welcomeNext {
+		height: 244px;
+		width: 50px;
+		right: 40px;
+	}
+}
+
+@media screen and (max-width: 1202px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 763px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 763px;
+	}
+	#MenuPosi {
+		left: 422px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 805px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 1083px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 590px;
+	}
+	#birdImgContainer {
+		width: 518px;
+	}
+	.birdDetailedTextWindow {
+		height: 461px;
+		width: 200px;
+		margin-left: 540px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 528px;
+	}
+	#bulletContainer {
+		padding-right: 15px;
+		padding-top: 8px;
+		padding-bottom: 5px;
+		border-radius: 50px;
+	}
+	#bullet2, #bullet3, #bullet4, #bullet5, #bullet6, #bullet7 {
+		height: 15px;
+		width: 15px;
+		margin-left: 15px;
+	}
+	#bullet1 {
+		height: 15px;
+		width: 15px;
+		margin-left: 15px;
+	}
+	/* Detailed Template */
+	#lineExpand {
+		width: 763px;
+	}
+}
+
+@media screen and (max-width: 1136px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 695px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 695px;
+	}
+	#MenuPosi {
+		left: 405px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 755px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 906px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 460px;
+	}
+	#birdImgContainer {
+		width: 428px;
+	}
+	.birdDetailedTextWindow {
+		height: 381px;
+		width: 200px;
+		margin-left: 448px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 450px;
+	}
+	/* Detailed Template */
+	#lineExpand {
+		width: 695px;
+	}
+}
+
+@media screen and (max-width: 1067px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 628px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 628px;
+	}
+	#MenuPosi {
+		left: 385px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 700px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 628px;
+	}
+}
+
+/* viewport max 1024 989px you can use*/
+@media screen and (max-width: 1024px) {
+	.impressum {
+		height: 30px;
+		width: 100px;
+		left: 25px;
+		bottom: 50px;
+		border: 1px white solid;
+		text-align: center;
+		-ms-transform: translate(-200px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(-200px, 0px,0px) rotate(0deg);
+		transform: translate3d(-200px, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.impressum-change {
+		-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 142px;
+		height: 60px;
+		width: 838px;
+		font-size: 2.3em;
+	}
+	#lineExpand {
+		width: 838px;
+	}
+	#seasonUnderline {
+		margin-left: 142px;
+		width: 838px;
+	}
+	#MenuPosi {
+		left: 237px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 655px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 906px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 460px;
+	}
+	#birdImgContainer {
+		width: 428px;
+	}
+	.birdDetailedTextWindow {
+		height: 381px;
+		width: 200px;
+		margin-left: 448px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 450px;
+	}
+	/* Detailed Template */
+	/* Push Menu */
+	.searchButtonToggle {
+		background: url("../images/pageElements/Lupe.gif") no-repeat;
+		margin-top: 246px;
+		margin-right: -59px;
+		background-size: 100%;
+		height: 60px;
+		width: 60px;
+		-ms-transform: translate3d(0px, 0px,0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+		-ms-transition: 0.25s;
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	#birdImgMenu {
+		max-width: 300px;
+		display: none;
+	}
+	.menuButtonToggle {
+		background: url("../images/pageElements/Menu Button 2.gif") no-repeat;
+		margin-top: 165px;
+		margin-right: 45px;
+		float: right;
+		background-size: 100%;
+		height: 60px;
+		width: 60px;
+		-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.menuButtonToggle-change {
+		-ms-transform: translate(-190px, -120px) rotate(90deg); /* IE 9 */
+		-webkit-transform: translate3d(-190px,-120px,0px) rotate(90deg);
+		transform: translate3d(-190px, -120px, 0px) rotate(90deg);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+
+	.buttonName {
+		margin-top: 200px;
+		-ms-transform: translate(-100px, 0px);/* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason {
+		-ms-transform: translate(-100px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory {
+		-ms-transform: translate(-100px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(-100px, 0px,0px) rotate(0deg);
+		transform: translate3d(-100px, 0px, 0px) rotate(0deg);
+	}
+	.buttonName-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonSeason-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.buttonCategory-change {
+		-ms-transform: translate(0px, 0px); /* IE 9 */
+		-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+		transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	}
+	.siteMenu {
+		overflow-y: inherit;
+		z-index: 35;
+		position: fixed;
+		background: #323131;
+		top: 0;
+		height: 100%;
+		width: 330px;
+		-ms-transform: translate(-190px, 0px);
+		-webkit-transform: translate3d(-190px,0px,0px);
+		transform: translate3d(-190px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.siteMenu-change {
+		overflow-y: scroll;
+		-ms-transform: translate(0px, 0px);
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.siteMenuTransparenz {
+		z-index: 34;
+		position: fixed;
+		background: #323131;
+		top: 0;
+		height: 100%;
+		width: 1200px;
+		opacity: 0.3;
+		-ms-transform: translate(-1200px, 0px);
+		-webkit-transform: translate3d(-1200px,0px,0px);
+		transform: translate3d(-1200px, 0px, 0px);
+		-webkit-transition: 0.25s;
+		transition: 0.25s;
+	}
+	.siteMenuTransparenz-change {
+		-ms-transform: translate(330px, 0px);
+		-webkit-transform: translate3d(330px,0px,0px);
+		transform: translate3d(330px, 0px, 0px);
+	}
+	/* Push Menu */
+
+	/* horizontal Menu bar */
+	#analphabeter {
+		top: 32px;
+		margin-left: 140px;
+		position: absolute;
+		z-index: 90;
+		font-size: 6em;
+	}
+	#scrollHide {
+		background: #323131;
+		width: 100%;
+		top: 0;
+		height: 125px;
+	}
+	#lineExpand {
+		z-index: 9;
+		background: white;
+		position: absolute;
+		margin-left: 142px;
+		margin-top: 120px;
+		width: 838px;
+		height: 3px;
+		font-size: 3em;
+	}
+	#line {
+		display: none;
+		z-index: 10;
+		position: absolute;
+		margin-left: 142px;
+		margin-top: 120px;
+		width: 838px;
+		height: 50px;
+		border: none;
+		font-size: 2em;
+	}
+	/* horizontal Menu bar */
+
+	/* vertical Menu bar */
+	/* vertical Menu bar */
+
+	/* horizontal Menu bar */
+	#birdFrame {
+		margin-left: 125px;
+		margin-top: 140px;
+	}
+	.birdBox {
+		float: left;
+		margin: 12px;
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+	.birdImg {
+		width: 185px;
+		height: 165px;
+		border: 2px solid white;
+	}
+	.birdText {
+		display: table;
+		width: 185px;
+		height: 60px;
+		border: 2px solid white;
+	}
+	.birdText p {
+		display: table-cell;
+		text-align: center;
+		margin: 5px;
+		font-size: 1em;
+		vertical-align: middle;
+	}
+
+}
+@media screen and (max-width: 1005px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 142px;
+		height: 60px;
+		width: 776px;
+		font-size: 2.3em;
+	}
+	#lineExpand {
+		width: 776px;
+	}
+	#seasonUnderline {
+		margin-left: 142px;
+		width: 776px;
+	}
+	#MenuPosi {
+		left: 222px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 609px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	#backDetailed {
+		position: absolute;
+		z-index: 1;
+		margin-top: -24px;
+		right: -45px;
+		font-size: 2em;
+		height: 45px;
+		width: 50px;
+	}
+	/* Detailed Template */
+}
+@media screen and (max-width: 966px) {
+	#birdFrame {
+		margin-left: 125px;
+		margin-top: 140px;
+	}
+	.birdBox {
+		float: left;
+		margin: 12px;
+		margin-left: 15px;
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+	.birdImg {
+		width: 174px;
+		height: 155px;
+	}
+	.birdText {
+		display: table;
+		width: 174px;
+		height: 50px;
+		border: 2px solid white;
+	}
+	.birdText p {
+		display: table-cell;
+		text-align: center;
+		margin: 5px;
+		font-size: 1.2em;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 945px) {
+	#lineExpand {
+		width: 828px;
+	}
+	#welcome {
+		margin-top: 230px;
+		font-size: 1.8em;
+	}
+	#welcomeLine {
+		width: 500px;
+		margin-top: 30px;
+	}
+	#welcomeXuan {
+		font-size: 3.8em;
+		margin-top: 30px;
+	}
+	#welcomeNext {
+		height: 244px;
+		width: 50px;
+		right: 40px;
+	}
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 142px;
+		height: 60px;
+		width: 731px;
+		font-size: 2.3em;
+	}
+	#lineExpand {
+		width: 731px;
+	}
+	#seasonUnderline {
+		margin-left: 142px;
+		width: 731px;
+	}
+	#MenuPosi {
+		left: 210px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 573px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 761px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 380px;
+	}
+	#birdImgContainer {
+		width: 358px;
+	}
+	.birdDetailedTextWindow {
+		height: 318px;
+		width: 200px;
+		margin-left: 378px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 375px;
+	}
+	/* Detailed Template */
+}
+
+@media screen and (max-width: 903px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 142px;
+		height: 60px;
+		width: 672px;
+		font-size: 2.3em;
+	}
+	#lineExpand {
+		width: 672px;
+	}
+	#seasonUnderline {
+		margin-left: 142px;
+		width: 672px;
+	}
+	#MenuPosi {
+		left: 194px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 531px;
+	}
+	/* Months */
+	/* SEASON CSS */
+}
+
+@media screen and (max-width: 843px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 142px;
+		height: 60px;
+		width: 611px;
+		font-size: 2.3em;
+	}
+	#lineExpand {
+		width: 611px;
+	}
+	#seasonUnderline {
+		margin-left: 142px;
+		width: 611px;
+	}
+	#MenuPosi {
+		left: 180px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 484px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	.birdBox {
+		margin: 15px;
+		margin-bottom: 40px;
+	}
+	.birdImg {
+		width: 180px;
+		height: 170px;
+	}
+	.birdText {
+		width: 180px;
+		height: 40px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1.2em;
+	}
+	#lineExpand {
+		width: 611px;
+	}
+	#line {
+		width: 611px;
+	}
+}
+
+/* Change Language */
+@media screen and (max-width: 837px) {
+
+	.languageSwitch {
+		z-index: 24;
+		margin-right: 50px;
+		margin-top: 30px;
+		height: 30px;
+		width: 200px;
+		border: 1px white solid;
+	}
+	.languageSwitch-change {
+		height: 160px;
+	}
+	.languageEng {
+		margin-left: 30px;
+		border-right: 0;
+		border-bottom: 2px white solid;
+	}
+	.languageEng-change {
+		margin-top: 75px;
+	}
+	.languageEng p {
+		margin-bottom: 5px;
+		margin-right: 0px;
+	}
+	.languageViet {
+		margin-left: 22px;
+	}
+	.languageViet-change {
+		margin-top: 119px;
+	}
+}
+/* Change Language */
+
+/* viewport max 768  750px you can use*/
+@media screen and (max-width: 783px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 142px;
+		height: 60px;
+		width: 576px;
+		font-size: 2.3em;
+	}
+	#lineExpand {
+		width: 576px;
+	}
+	#seasonUnderline {
+		margin-left: 142px;
+		width: 576px;
+	}
+	#MenuPosi {
+		left: 173px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 459px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	.birdBox {
+		margin: 15px;
+		margin-right: 12px;
+		margin-bottom: 40px;
+	}
+	.birdImg {
+		width: 170px;
+		height: 160px;
+	}
+	.birdText {
+		width: 170px;
+		height: 50px;
+	}
+	.birdText p {
+		margin: 5px;
+		font-size: 1em;
+	}
+	#lineExpand {
+		width: 576px;
+	}
+	#line {
+		width: 576px;
+	}
+}

@@ -1,0 +1,1386 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+@font-face {
+	font-family: 'neouthin';
+	src: url('../fonts/neou-thin-webfont.eot');
+	src: url('../fonts/neou-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/neou-thin-webfont.woff') format('woff'), url('../fonts/neou-thin-webfont.ttf') format('truetype'), url('../fonts/neou-thin-webfont.svg#neouthin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'neouthinB';
+	src: url('../fonts/Neou-Bold.eot');
+	src: url('../fonts/Neou-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Neou-Bold.woff') format('woff'), url('../fonts/Neou-Bold.ttf') format('truetype'), url('../fonts/Neou-Bold.svg#neouthin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* CSS OF THE FRONT PAGE */
+.frontPage {
+	z-index: 1000;
+	position: fixed;
+	overflow: hidden;
+	background: #323131;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.frontPage-change {
+	-ms-transform: translate(-100%, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(-100%, 0px,0px) rotate(0deg);
+	transform: translate3d(-100%, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+#welcome {
+	position: relative;
+	margin-top: 250px;
+	font-size: 3.2em;
+}
+#welcomeLine {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 800px;
+	margin-top: 50px;
+	height: 1px;
+	background: white;
+}
+#welcomeXuan {
+	position: relative;
+	font-size: 5.8em;
+	margin-top: 50px;
+}
+#welcomeImg {
+	position: absolute;
+	bottom: 0;
+	margin-left: -150px;
+}
+#welcomeNext {
+	display: none;
+	position: absolute;
+	background: url("../images/pageElements/Pfeil 3.gif") no-repeat center;
+	height: 244px;
+	width: 70px;
+	bottom: 0;
+	right: 40px;
+	background-size: 100%;
+}
+/* CSS OF THE FRONT PAGE */
+
+/* Start of Page CSS */
+
+body {
+	background: #323131;
+	font-family: 'neouthin', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	color: white;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.5);
+}
+.fontSw {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+/* click and close */
+.clickPlate {
+	display: none;
+	z-index: 18;
+	top: 0;
+	position: absolute;
+	height: 10000px;
+	width: 100%;
+}
+.clickPlateAbout {
+	display: none;
+	top: 0;
+	position: absolute;
+	height: 10000px;
+	width: 100%;
+}
+/* click and close */
+/* SEASON CSS */
+#season {
+	display: none;
+}
+
+#seasonMenu {
+	z-index: 20;
+	display: table;
+	margin-top: 123px;
+	margin-left: 345px;
+	position: absolute;
+	height: 60px;
+	width: 628px;
+	font-size: 2.3em;
+}
+.seasonSeasons {
+	display: table;
+	position: absolute;
+	height: 60px;
+	width: 50%;
+	left: 0;
+	text-align: center;
+}
+.seasonSeasons p {
+	display: table-cell;
+	vertical-align: middle;
+}
+.seasonMonths {
+	display: table;
+	position: absolute;
+	height: 60px;
+	width: 50%;
+	left: 50%;
+	text-align: center;
+}
+.seasonMonths p {
+	display: table-cell;
+	vertical-align: middle;
+}
+#seasonCutLine {
+	position: absolute;
+	top: 5px;
+	left: 49.5%;
+	height: 50px;
+	width: 1px;
+	border-left: 2px white solid;
+}
+#seasonUnderline {
+	position: absolute;
+	z-index: 18;
+	display: table;
+	margin-top: 183px;
+	margin-left: 345px;
+	width: 100%;
+	height: 1px;
+	border-bottom: 3px white solid;
+}
+
+#MenuPosi {
+	z-index: 19;
+	position: absolute;
+	top: 128px;
+	left: 385px;
+}
+#Rahmen {
+	background: #323131;
+	width: 225px;
+	height: auto;
+	font-size: 2em;
+	text-align: center;
+}
+#kleinerRahmen {
+	margin-left: 40px;
+	width: 145px;
+	height: auto;
+}
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ul {
+	text-align: center;
+}
+#seasonDropLine {
+	margin-top: 55px;
+	width: 130%;
+	margin-left: -15%;
+	border: 1px solid white;
+}
+#Spring {
+	margin-top: 25px;
+	list-style: disc;
+	list-style-position: outside;
+}
+#Summer {
+	list-style: circle;
+	list-style-position: outside;
+}
+#Autumn {
+	list-style: circle;
+	list-style-position: outside;
+}
+#Winter {
+	list-style: circle;
+	list-style-position: outside;
+}
+/* Months */
+#MenuPosi2 {
+	z-index: 19;
+	position: absolute;
+	top: 128px;
+	left: 700px;
+}
+#Rahmen2 {
+	background: #323131;
+	width: 225px;
+	height: auto;
+	font-size: 2em;
+	text-align: center;
+}
+#kleinerRahmen2 {
+	margin-left: 40px;
+	width: 145px;
+	height: auto;
+}
+
+#monthDropLine {
+	margin-top: 55px;
+	width: 130%;
+	margin-left: -15%;
+	border: 1px solid white;
+}
+#monthAll {
+	margin-top: 25px;
+	list-style: disc;
+	list-style-position: outside;
+}
+#month1 {
+	list-style: circle;
+	list-style-position: outside;
+}
+#month2 {
+	list-style: circle;
+	list-style-position: outside;
+}
+#month3 {
+	list-style: circle;
+	list-style-position: outside;
+}
+/* Months */
+
+/* SEASON CSS */
+
+.impressum {
+	display: table;
+	z-index: 41;
+	position: fixed;
+	height: 30px;
+	width: 100px;
+	background: #497463;
+	right: 5px;
+	bottom: 2px;
+	border: 1px white solid;
+	text-align: center;
+	-ms-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+
+.impressum p {
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 1.5em;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.noScroller {
+	position: fixed;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+/* Push Menu */
+.searchButtonToggle {
+	background: url("../images/pageElements/Lupe.gif") no-repeat;
+	margin-top: 140px;
+	margin-right: 145px;
+	float: right;
+	background-size: 100%;
+	height: 60px;
+	width: 60px;
+	-ms-transform: translate3d(0px, 0px,0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-ms-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.searchButtonToggle:active {
+	background: url("../images/pageElements/Lupe_schwarz.gif") no-repeat;
+	background-size: 100%;
+	-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-ms-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+
+.searchBarXlScreens {
+	font-family: 'neouthin', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	color: white;
+	background: #323131;
+	font-size: 2em;
+	position: absolute;
+	margin-top: 67px;
+	padding-left: 9px;
+	width: 239px;
+	height: 50px;
+	border: 2px solid white;
+	-ms-transform: translate(-280px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(-280px, 0px,0px) rotate(0deg);
+	transform: translate3d(-280px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.searchBarXlScreens-change {
+	-ms-transform: translate(24px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(24px, 0px,0px) rotate(0deg);
+	transform: translate3d(24px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+
+.buttonName {
+	display: table;
+	margin-left: 25px;
+	margin-top: 267px;
+	height: 80px;
+	width: 250px;
+	background: #497463;
+	font-size: 3em;
+	text-align: center;
+	-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.buttonName:active {
+	color: black;
+}
+.buttonSeason {
+	display: table;
+	margin-left: 25px;
+	margin-top: 50px;
+	height: 80px;
+	width: 250px;
+	background: gray;
+	font-size: 3em;
+	text-align: center;
+	-ms-transform: ranslate3d(0px, 0px,0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.buttonSeason:active {
+	color: black;
+}
+.buttonCategory {
+	display: table;
+	margin-left: 25px;
+	margin-top: 50px;
+	height: 80px;
+	width: 250px;
+	background: gray;
+	font-size: 2.7em;
+	text-align: center;
+	-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.buttonCategory:active {
+	color: black;
+}
+.buttonName-change {
+	-ms-transform: translate3d(0px, 0px,0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.buttonSeason-change {
+	-ms-transform: translate3d(0px, 0px,0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.buttonCategory-change {
+	-ms-transform: translate3d(0px, 0px,0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.buttonSeason p {
+	display: table-cell;
+	vertical-align: middle;
+}
+.buttonName p {
+	display: table-cell;
+	vertical-align: middle;
+}
+.buttonCategory p {
+	display: table-cell;
+	vertical-align: middle;
+}
+#birdImgMenu {
+	z-index: -1;
+	position: absolute;
+	bottom: 0;
+	max-width: 300px;
+}
+
+.siteMenu {
+	z-index: 15;
+	position: fixed;
+	background: #323131;
+	top: 0;
+	height: 100%;
+	width: 330px;
+	-ms-transform: translate3d(0px, 0px,0px);
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.siteWrapper {
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	opacity: 1;
+}
+.siteWrapper-change {
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	opacity: 0.3;
+}
+
+/* Push Menu */
+
+/* horizontal Menu bar */
+#navTop {
+	z-index: 8;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+#scrollHide {
+	position: absolute;
+	z-index: 8;
+	background: #323131;
+	width: 100%;
+	top: 0;
+	height: 124px;
+}
+#lineExpand {
+	z-index: 9;
+	background: white;
+	position: absolute;
+	margin-left: 345px;
+	margin-top: 120px;
+	width: 700px;
+	height: 3px;
+	font-size: 3em;
+}
+#line {
+	display: none;
+	z-index: 9;
+	margin-left: 346px;
+	position: absolute;
+	margin-top: 120px;
+	width: 100%;
+	border: solid white 2px;
+	height: 0px;
+	font-size: 3em;
+}
+#language {
+	display: table;
+	z-index: 25;
+	position: absolute;
+	background: #497463;
+	right: 0;
+	margin-right: 50px;
+	margin-top: 30px;
+	height: 58px;
+	width: 200px;
+	border: solid white 1px;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+#language:active {
+	background: #F6F6F6 !important;
+	color: black;
+}
+#language p {
+	display: table-cell;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.languageSwitch {
+	background: none;
+	z-index: 10;
+	position: absolute;
+	right: 0;
+	margin-right: -140px;
+	margin-top: 47px;
+	height: 60px;
+	width: 380px;
+	font-size: 1.8em;
+	text-align: center;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.languageSwitch-change {
+	margin-right: 230px;
+}
+.languageEng {
+	margin-left: 5px;
+	margin-top: 0px;
+	position: absolute;
+	border-right: solid white 2px;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.languageEng-change {
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.languageEng-scale p {
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	font-family: 'neouthinB';
+}
+.languageEng p {
+	margin-bottom: 0px;
+	margin-right: 30px;
+}
+.languageViet {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 0px;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.languageViet-change {
+	margin-left: 179px
+}
+.languageViet-scale {
+	font-family: 'neouthinB';
+}
+#analphabeter {
+	top: 6px;
+	margin-left: 340px;
+	position: absolute;
+	z-index: 90;
+	font-size: 8em;
+}
+/* horizontal Menu bar */
+/* Bird Window */
+#birdFrame {
+	margin-left: 334px;
+	margin-top: 140px;
+}
+.birdBox {
+	float: left;
+	margin: 15px;
+	margin-bottom: 60px;
+}
+.birdImg {
+	width: 270px;
+	height: 250px;
+	border: 2px solid white;
+}
+.birdText {
+	display: table;
+	width: 270px;
+	height: 80px;
+	border: 2px solid white;
+}
+.birdText p {
+	display: table-cell;
+	text-align: center;
+	margin: 10px;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+/* Bird Window */
+
+/* Detailed Template */
+
+#detailedShower {
+	display: none;
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+}
+.detailedWindow {
+	margin: auto;
+	height: 100%;
+	width: 1573px;
+}
+#birdImgContainer {
+	width: 682px;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+#textContainer {
+	height: 100%;
+	position: absolute;
+}
+#centerBirdImg {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+.birdDetailedImg {
+	border: solid white 4px;
+	max-width: 100%;
+	max-height: 700px;
+}
+#pImage {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	width: 50%;
+	height: 100%;
+}
+#prevImage {
+	background: url("../images/pageElements/Pfeil 2.gif") no-repeat center;
+	height: 100%;
+	width: 20px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: 5%;
+	margin-right: auto;
+	background-size: 100%;
+}
+#nImage {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+#nextImage {
+	background: url("../images/pageElements/Pfeil 3.gif") no-repeat center;
+	height: 100%;
+	width: 20px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: 5%;
+	background-size: 100%;
+}
+#hoverMover {
+}
+#hoverMover:hover #pImage {
+	opacity: 1;
+}
+#hoverMover:hover #nImage {
+	opacity: 1;
+}
+#hoverMover:hover #bulletCenterHelp {
+	opacity: 1;
+}
+#hoverMover:hover #copyRightPicCenter {
+	opacity: 1;
+	transition: opacity 0.1s ease-in-out;
+	-moz-transition: opacity 0.1s ease-in-out;
+	-webkit-transition: opacity 0.1s ease-in-out;
+}
+/* COPY PIC */
+.aligRight {
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: right;
+	padding: 6px 15px 6px 15px;
+	color: rgba(219, 219, 219, 1);
+}
+#copyRightPicCenter {
+	position: absolute;
+	margin-top: -36px;
+	opacity: 0;
+	background: rgba(47, 46, 46, 0.67);
+	padding: 6px 15px 6px 15px;
+	text-align: left;
+	transition: opacity 0.5s 1s cubic-bezier(1, 0, 1, 0);
+	-moz-transition: opacity 0.5s 1s cubic-bezier(1, 0, 1, 0);
+	-webkit-transition: opacity 0.5s 1s cubic-bezier(1, 0, 1, 0);
+}
+#copyRightPicContainer {
+	z-index: 1;
+}
+/* COPY PIC */
+#bulletCenterHelp {
+	position: absolute;
+	left: 50%;
+	opacity: 1;
+	margin-top: 20px;
+}
+#bulletContainer {
+	z-index: 1;
+	position: relative;
+	left: -50%;
+	background: rgba(47, 46, 46, 0.67);
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	border-radius: 50px;
+}
+#bullet2, #bullet3, #bullet4, #bullet5, #bullet6, #bullet7 {
+	display: inline-block;
+	background: url("../images/pageElements/Ellipse 2.gif") no-repeat center;
+	height: 20px;
+	width: 20px;
+	margin-left: 20px;
+	background-size: 20%;
+}
+#bullet1 {
+	display: inline-block;
+	background: url("../images/pageElements/Ellipse 2.gif") no-repeat center;
+	height: 20px;
+	width: 20px;
+	margin-left: 20px;
+	background-size: 50%;
+}
+#centerTextDetail {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.birdDetailedTextWindow {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: #000000;
+	position: relative;
+	border: solid white 4px;
+	height: 600px;
+	width: 200px;
+	margin-left: 710px;
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 0.25s;
+	transition: 1.25s;
+}
+.birdDetailedTextWindow-change {
+	background: #323131;
+	width: 850px;
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+h2 {
+	font-weight: 100;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;;
+	font-size: 3em;
+}
+h3 {
+	margin-top: 5%;
+	margin-left: 12%;
+	font-size: 1.9em;
+}
+
+.detailLine {
+	background: white;
+	height: 1px;
+	margin-left: 5%;
+	width: 20%;
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.detailLine-change {
+	margin-left: 9%;
+	width: 82%;
+}
+p.informationText {
+	font-family: calibri;
+	font-weight: 100;
+	margin-top: 0.5%;
+	margin-left: 12%;
+	margin-right: 12%;
+	margin-bottom: 6%;
+	font-size: 1.2em;
+}
+#backDetailed {
+	position: absolute;
+	z-index: 1;
+	margin-top: -43px;
+	right: -43px;
+	font-size: 3em;
+	height: 45px;
+	width: 50px;
+	cursor: hand;
+}
+#backDetailed2 {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	margin-top: 4px;
+	right: 4px;
+	font-size: 3em;
+	height: 45px;
+	width: 50px;
+	cursor: hand;
+}
+#lineExpand {
+	width: 100%;
+}
+/* Detailed Template */
+/* About Template */
+#counter {
+	margin-top: 10%;
+	text-align: center;
+}
+#aboutShower {
+	position: fixed;
+	top: 0;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	font-family: calibri;
+}
+.aboutFrame {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: -400px;
+	position: absolute;
+	background: #2a2a2a;
+	border: none;
+	height: 100%;
+	width: 500px;
+	bottom: 0;
+	right: 0;
+	border-left: 1px solid white;
+	-ms-transform: translate(510px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(510px, 0px,0px) rotate(0deg);
+	transform: translate3d(510px, 0px, 0px) rotate(0deg);
+	-ms-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.aboutFrame-change {
+	margin-top: -400px;
+	position: absolute;
+	background: #2a2a2a;
+	width: 500px;
+	bottom: 0;
+	right: 0;
+	-ms-transform: translate(0px, 0px) rotate(0deg); /* IE 9 */
+	-webkit-transform: translate3d(0px, 0px,0px) rotate(0deg);
+	transform: translate3d(0px, 0px, 0px) rotate(0deg);
+	-ms-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+}
+.lineAbout {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	height: 1px;
+	border-top: 1px white solid;
+}
+.lineAbout2 {
+}
+.aboutFrame h1 {
+	margin-top: 5%;
+	font-size: 3.3em;
+	text-align: center;
+	font-family: 'neouthin', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+.aboutFrame h2 {
+	margin-top: 14%;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-size: 1.9em;
+	font-family: 'neouthin', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+.aboutFrame p {
+	margin-top: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#email {
+}
+#copyRight {
+	margin-top: 40px;
+	bottom: 0;
+	right: 0;
+}
+/* About Template */
+
+@media screen and (max-width: 2610px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 2105px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 2105px;
+	}
+	#MenuPosi {
+		left: 758px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1810px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 2105px;
+	}
+}
+@media screen and (max-width: 2478px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1800px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1800px;
+	}
+	#MenuPosi {
+		left: 680px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1580px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 1800px;
+	}
+}
+/* viewport max 1920px */
+@media screen and (max-width: 2174px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1497px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1497px;
+	}
+	#MenuPosi {
+		left: 606px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1353px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 1497px;
+	}
+}
+
+@media screen and (max-width: 1870px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1462px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1462px;
+	}
+	#MenuPosi {
+		left: 594px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1327px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#birdFrame {
+		margin-left: 334px;
+		margin-top: 140px;
+	}
+	.birdBox {
+		float: left;
+		margin: 15px;
+		margin-bottom: 60px;
+	}
+	.birdImg {
+		width: 263px;
+		height: 248px;
+		border: 2px solid white;
+	}
+	.birdText {
+		display: table;
+		width: 263px;
+		height: 80px;
+		border: 2px solid white;
+	}
+	.birdText p {
+		display: table-cell;
+		text-align: center;
+		margin: 10px;
+		font-size: 1.5em;
+		vertical-align: middle;
+	}
+	#lineExpand {
+		width: 1462px;
+	}
+}
+
+@media screen and (max-width: 1840px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1368px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1368px;
+	}
+	#MenuPosi {
+		left: 572px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1255px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 1368px;
+	}
+}
+/* viewport max 1680 1565px you can use */
+@media screen and (max-width: 1740px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1275px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1275px;
+	}
+	#MenuPosi {
+		left: 549px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1185px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 1425px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 700px;
+	}
+	#birdImgContainer {
+		width: 612px;
+	}
+	.birdDetailedTextWindow {
+		height: 545px;
+		width: 200px;
+		margin-left: 650px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 760px;
+	}
+	/* Detailed Template */
+	#lineExpand {
+		width: 1275px;
+	}
+}
+@media screen and (max-width: 1629px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1190px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1190px;
+	}
+	#MenuPosi {
+		left: 527px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1122px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#lineExpand {
+		width: 1190px;
+	}
+}
+
+@media screen and (max-width: 1566px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1118px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1118px;
+	}
+	#MenuPosi {
+		left: 509px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1070px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 1345px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 680px;
+	}
+	/* Detailed Template */
+	#lineExpand {
+		width: 1118px;
+	}
+}
+/* viewport max 1440 prefekt on 1366 */
+@media screen and (max-width: 1490px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 1038px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 1038px;
+	}
+	#MenuPosi {
+		left: 492px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 1008px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 1201px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 610px;
+	}
+	#birdImgContainer {
+		width: 536px;
+	}
+	.birdDetailedTextWindow {
+		height: 479px;
+		width: 200px;
+		margin-left: 568px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 625px;
+	}
+	/* Detailed Template */
+	#lineExpand {
+		width: 1038px;
+	}
+}
+@media screen and (max-width: 1410px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 953px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 953px;
+	}
+	#MenuPosi {
+		left: 472px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 945px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	#birdFrame {
+		margin-left: 334px;
+		margin-top: 140px;
+	}
+	.birdBox {
+		float: left;
+		margin: 15px;
+		margin-bottom: 60px;
+	}
+	.birdImg {
+		width: 210px;
+		height: 195px;
+		border: 2px solid white;
+	}
+	.birdText {
+		display: table;
+		width: 210px;
+		height: 80px;
+		border: 2px solid white;
+	}
+	.birdText p {
+		display: table-cell;
+		text-align: center;
+		margin: 10px;
+		font-size: 1.5em;
+		vertical-align: middle;
+	}
+	#lineExpand {
+		width: 953px;
+	}
+}
+
+/* viewport max 1280 1245px you can use */
+@media screen and (max-width: 1330px) {
+	/* SEASON CSS */
+	#seasonMenu {
+		margin-left: 345px;
+		height: 60px;
+		width: 889px;
+		font-size: 2.3em;
+	}
+	#seasonUnderline {
+		margin-left: 345px;
+		width: 889px;
+	}
+	#MenuPosi {
+		left: 455px;
+	}
+	/* Months */
+	#MenuPosi2 {
+		left: 895px;
+	}
+	/* Months */
+	/* SEASON CSS */
+	/* Detailed Template */
+	.detailedWindow {
+		width: 1083px;
+	}
+	.birdDetailedImg {
+		border: solid white 4px;
+		max-width: 100%;
+		max-height: 590px;
+	}
+	#birdImgContainer {
+		width: 518px;
+	}
+	.birdDetailedTextWindow {
+		height: 461px;
+		width: 200px;
+		margin-left: 540px;
+	}
+	.birdDetailedTextWindow-change {
+		width: 528px;
+	}
+	/* Detailed Template */
+	#lineExpand {
+		width: 889px;
+	}
+}
+/* Change Language */
+
