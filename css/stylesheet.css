@@ -473,7 +473,24 @@ ul {
 	bottom: 0;
 	max-width: 300px;
 }
-
+#birdGimik:hover #birdImgMenu {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	-webkit-transform: translate3d(0px, 0px, 0px) rotate(360deg);
+	transform: translate3d(0px, 0px, 0px) rotate(360deg);
+}
+#birdGimik:hover #parkSite {
+	position: absolute;
+	bottom: 250px;
+	left: 20px;
+}
+#parkSite {
+	font-family: 'neouthinB';
+	transition: 0.25s;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
 .siteMenu {
 	z-index: 15;
 	position: fixed;
@@ -961,14 +978,14 @@ p.informationText {
 	font-family: 'neouthin', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 .aboutFrame p {
-	margin-top: 15px;
+	margin-top: 30px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 #email {
 }
 #copyRight {
-	margin-top: 40px;
+	margin-top: 20px;
 	bottom: 0;
 	right: 0;
 }
