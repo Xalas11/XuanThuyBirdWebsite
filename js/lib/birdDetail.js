@@ -733,7 +733,7 @@ var birdInformation = [{
 	"birdCopyRight" : {
 		"0" : "<a href='http://jmrocek.deviantart.com/' target='_blank'>© Jmrocek</a> <p class='aligRight'>All Rights Reserved</p>",
 		"1" : "<a href='https://www.flickr.com/photos/dajan-chiou/' target='_blank'>© Dajan Chiou</a> <p class='aligRight'>All Rights Reserved</p>",
-		"2" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"2" : "<a href='https://www.flickr.com/photos/francesco_veronesi/' target='_blank'>© Francesco Veronesi</a> <p class='aligRight'>" + CC2 + "</p>",
 		"3" : "© Unkown",
 		"4" : "© Unkown",
 	},
@@ -2944,7 +2944,7 @@ var birdInformation = [{
 	"birdCopyRight" : {
 		"0" : "© Taryn Marie <p class='aligRight'>All Rights Reserved</p>",
 		"1" : "<a href='http://www.biotope.no/' target='_blank'>© Tormod Amundsen</a> <p class='aligRight'>All Rights Reserved</p>",
-		"2" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"2" : "<a href='https://en.wikipedia.org/wiki/User:Andrew_c' target='_blank'>© Andrew C</a> <p class='aligRight'>" + CC2 + "</p>",
 		"3" : "<a href='http://tgreybirds.com/' target='_blank'>© Tom Grey</a> <p class='aligRight'>All Rights Reserved</p>"
 	},
 	"birdTitel" : "Red-necked Phalarope",
@@ -4276,7 +4276,7 @@ var birdInformation = [{
 	"birdImgPath6" : "00",
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
-		"0" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"0" : "<a href='https://commons.wikimedia.org/wiki/User:Lilly_M/Animals' target='_blank'>© Lilly M</a> <p class='aligRight'>All Rights Reserved</p>",
 		"1" : "© Unkown",
 		"2" : "© Kazua Yamamoto <p class='aligRight'>All Rights Reserved</p>",
 		"3" : "<a href='https://www.flickr.com/photos/57027990@N08' target='_blank'>© Cristiano Crolle</a> <p class='aligRight'>All Rights Reserved</p>"
@@ -5036,10 +5036,10 @@ var birdInformation = [{
 	"birdImgPath6" : "00",
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
-		"0" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"0" : "© Kisup Lee <p class='aligRight'>All Rights Reserved</p>",
 		"1" : "<a href='https://www.flickr.com/photos/craigmckenzie/' target='_blank'>© Craig McKenzie</a> <p class='aligRight'>All Rights Reserved</p>",
 		"2" : "© Unkown",
-		"3" : "© Kisup Lee <p class='aligRight'>All Rights Reserved</p>"
+		"3" : "© Takashi Hososhima <p class='aligRight'>" + CC2 + "</p>"
 	},
 	"birdTitel" : "Black faced Spoonbill",
 	"birdDescription" : " 76-78 cm. Smaller than Eurasian. Adult non-breeding: Black face encircles at bill-base, all blackish bill.Juvenile: Blackish edges to outer primaries, small backish tips to flight feathers and primary coverts.",
@@ -5264,7 +5264,7 @@ var birdInformation = [{
 	"birdImgPath6" : "00",
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
-		"0" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"0" : "© Jason Thompson <p class='aligRight'>" + CC2 + "</p>",
 		"1" : "<a href='http://ibc.lynxeds.com/users/zahidi' target='_blank'>© Zahidi</a> <p class='aligRight'>All Rights Reserved</p>",
 		"2" : "<a href='https://www.flickr.com/photos/27953281@N03' target='_blank'>© Chong Boon Leong </a> <p class='aligRight'>All Rights Reserved</p>",
 		"3" : "<a href='https://www.flickr.com/photos/27953281@N03' target='_blank'>© Chong Boon Leong </a> <p class='aligRight'>All Rights Reserved</p>"
@@ -5302,7 +5302,7 @@ var birdInformation = [{
 	"birdImgPath6" : "00",
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
-		"0" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"0" : "© Yunus Mony <p class='aligRight'>" + CC2 + "</p>",
 		"1" : "<a href='http://zootherabirding.blogspot.com/' target='_blank'>© Nick Bray</a> <p class='aligRight'>All Rights Reserved</p>",
 		"2" : "<a href='https://www.flickr.com/people/91194946@N05' target='_blank'>© Yunus Mony</a> <p class='aligRight'>" + CC2 + "</p>",
 		"3" : "<a href='http://www.samyakkaninde.com/' target='_blank'>© Samyak Kaninde</a> <p class='aligRight'>All Rights Reserved</p>"
@@ -5683,7 +5683,7 @@ var birdInformation = [{
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
 		"0" : "© Godwin-C <p class='aligRight'>All Rights Reserved</p>",
-		"1" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"1" : "<a href='https://commons.wikimedia.org/wiki/User:Alnus' target='_blank'>© Alnus</a> <p class='aligRight'>" + CC2 + "</p>",
 		"2" : "© Unkown",
 		"3" : "<a href='https://www.flickr.com/photos/46202369@N02/' target='_blank'>© Sijanto</a> <p class='aligRight'>All Rights Reserved</p>",
 		"4" : "<a href='ifWebsite' target='_blank'>© NAME</a> <p class='aligRight'>All Rights Reserved</p>",
@@ -6948,7 +6948,7 @@ var birdInformation = [{
 	"birdImgPath6" : "00",
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
-		"0" : "<a href='ifWebsite' target='_blank'>© remove</a> <p class='aligRight'>All Rights Reserved</p>",
+		"0" : "<a href='https://www.flickr.com/photos/26931849@N04' target='_blank'>© Michael Gillam</a> <p class='aligRight'>All Rights Reserved</p>",
 		"1" : "<a href='https://www.flickr.com/photos/26931849@N04' target='_blank'>© Michael Gillam</a> <p class='aligRight'>All Rights Reserved</p>",
 		"2" : "<a href='http://www.panoramio.com/user/7771517' target='_blank'>© Sharad Vohra</a> <p class='aligRight'>All Rights Reserved</p>",
 		"3" : "<a href='http://ibc.lynxeds.com/users/vasanthanpj' target='_blank'>© vasanthan.p.j</a> <p class='aligRight'>All Rights Reserved</p>"
