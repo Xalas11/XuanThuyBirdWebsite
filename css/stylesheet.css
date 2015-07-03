@@ -474,10 +474,10 @@ ul {
 	max-width: 300px;
 }
 #birdGimik:hover #birdImgMenu {
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	-webkit-transform: translate3d(0px, 0px, 0px) rotate(360deg);
-	transform: translate3d(0px, 0px, 0px) rotate(360deg);
+	-webkit-transition: 10s;
+	transition: 10s;
+	-webkit-transform: translate3d(0px, 0px, 0px) rotate(54000deg);
+	transform: translate3d(0px, 0px, 0px) rotate(54000deg);
 }
 #birdGimik:hover #parkSite {
 	position: absolute;
