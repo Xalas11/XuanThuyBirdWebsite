@@ -5031,15 +5031,16 @@ var birdInformation = [{
 	"birdImgPath1" : "133_2.jpg",
 	"birdImgPath2" : "133_3.jpg",
 	"birdImgPath3" : "133_4.jpg",
-	"birdImgPath4" : "00",
+	"birdImgPath4" : "133_5.jpg",
 	"birdImgPath5" : "00",
 	"birdImgPath6" : "00",
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
-		"0" : "© Kisup Lee <p class='aligRight'>All Rights Reserved</p>",
+		"0" : "© 李豐曉 <p class='aligRight'>" + CC2 + "</p>",
 		"1" : "<a href='https://www.flickr.com/photos/craigmckenzie/' target='_blank'>© Craig McKenzie</a> <p class='aligRight'>All Rights Reserved</p>",
 		"2" : "© Unkown",
-		"3" : "© Takashi Hososhima <p class='aligRight'>" + CC2 + "</p>"
+		"3" : "© Kisup Lee <p class='aligRight'>All Rights Reserved</p>",
+		"4" : "© Takashi Hososhima <p class='aligRight'>" + CC2 + "</p>"
 	},
 	"birdTitel" : "Black faced Spoonbill",
 	"birdDescription" : " 76-78 cm. Smaller than Eurasian. Adult non-breeding: Black face encircles at bill-base, all blackish bill.Juvenile: Blackish edges to outer primaries, small backish tips to flight feathers and primary coverts.",
