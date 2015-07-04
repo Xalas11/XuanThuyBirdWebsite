@@ -179,6 +179,9 @@
 
 /* viewport max 1024 989px you can use*/
 @media screen and (max-width: 1024px) {
+	#parkSite {
+		display: none;
+	}
 	.impressum {
 		height: 30px;
 		width: 100px;
