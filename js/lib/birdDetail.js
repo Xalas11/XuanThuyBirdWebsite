@@ -2219,7 +2219,7 @@ var birdInformation = [{
 		"0" : "<a href='http://jaripeltomaki.com/' target='_blank'>© Jari Peltomäki</a> <p class='aligRight'>All Rights Reserved</p>",
 		"1" : "<a href='https://en.wikipedia.org/wiki/User:JJ_Harrison' target='_blank'>© JJ Harrison</a> <p class='aligRight'>" + CC3 + "</p>",
 		"2" : "© Nordfold <p class='aligRight'>All Rights Reserved</p>",
-		"3" : "<a href='http://ibc.lynxeds.com/users/anatoliy-kuzmin' target='_blank'>© Anatoliy Kuzmin</a> <p class='aligRight'>All Rights Reserved</p>",
+		"3" : "<a href='https://plus.google.com/113671775517267083305/about' target='_blank'>© Anatoliy Kuzmin</a> <p class='aligRight'>All Rights Reserved</p>",
 	},
 	"birdTitel" : "Wood Sandpiper",
 	"birdDescription" : "18.5- 21 cm. Adult non-breeding: Whitish supercilium, dark brown above with buffish speckles, yellowish legs, light streaks on breast, white belly. Juvenile: Browner upperparts and coverts with finer and denser buff speckles, more streaks on foreneck and breast.",
@@ -4954,7 +4954,7 @@ var birdInformation = [{
 	"birdImgPath7" : "00",
 	"birdCopyRight" : {
 		"0" : "<a href='http://commons.wikimedia.org/wiki/Category:Photographs_by_Koshy_Koshy' target='_blank'>© Koshy Koshy</a> <p class='aligRight'>" + CC3 + "</p>",
-		"1" : "© Shiju Sugunan <p class='aligRight'>All Rights Reserved</p>",
+		"1" : "<a href='http://craniumbolts.blogspot.in/' target='_blank'>© Shiju Sugunan</a> <p class='aligRight'>All Rights Reserved</p>",
 		"2" : "© Fir0002/Flagstaffotos <p class='aligRight'>" + CC3 + "</p>",
 		"3" : "© Avinash Krishnan <p class='aligRight'>All Rights Reserved</p>"
 	},
